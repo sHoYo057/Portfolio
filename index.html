@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arun's Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body onload="hideLoader()">
+    <div id="loader">
+        <div class="spinner"></div>
+        <p>Loading Portfolio...</p>
+    </div>
+
+    <div id="content">
+        <header>
+            <div class="header-container">
+                <a href="#" class="logo">Arun Lama</a>
+                <nav class="navbar">
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#portfolio">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <button onclick="toggleDarkMode()" class="dark-mode-toggle">
+                    <i class='bx bx-moon'></i>
+                </button>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Passionate about <span>AI</span> and Building Safer Digital Worlds</h1>
+                    <p class="subtitle">Hi, I'm Arun - Computer Engineer passionate about AI and Machine Learning. I am learning data analysis with the passion of turning raw numbers into actionable insights.  
+With expertise in SQL, Python, and data visualization, I help businesses make data-driven decisions.  
+Let’s uncover the story behind your data!  </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary">Let's talk <i class='bx bx-chevron-right'></i></a>
+                        <a href="#portfolio" class="btn secondary">View Work <i class='bx bx-code-alt'></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="glow"></div>
+                    <img src='1745847497663-removebg-preview.png' alt="Arun Lama smiling confidently while facing the camera in a professional setting with a neutral background, conveying a friendly and approachable mood">
+                    
+                </div>
+            </section>
+
+            <section id="about" class="about-section">
+                <div class="section-header">
+                    <h2>About <span>Me</span></h2>
+                    <p class="section-subtitle">Get to know me better</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                    <div class="about-text">
+                        <p>I'm a data enthusiast with a sharp eye for patterns and a love for turning numbers into stories. Though new to the field, I've spent 6 months immersing myself in data analytics through:    
+
+What excites me most? Solving real-world problems—like optimizing budgets or uncovering customer trends—with data-driven approaches.  
+                        </p>
+                        <p>Currently, I'm honing my skills in SQL, Python, and data visualization tools like Tableau and Power BI. I thrive on challenges and am eager to apply my analytical mindset to help businesses make informed decisions.</p>
+
+                        <p>When I'm not coding, you can find me contributing to open-source projects, mentoring aspiring developers, or exploring the latest research papers in AI.</p>
+                        <p>Let's connect and explore how we can leverage technology to build a better future together!</p>
+                        <p>Open to internships and junior roles! </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills-section">
+                <div class="section-header">
+                    <h2>My <span>Skills</span></h2>
+                    <p class="section-subtitle">Technologies I work with</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>AI/ML</h3>
+                        <div class="skills-list">
+                            <span class="skill">TensorFlow</span>
+                            <span class="skill">PyTorch</span>
+                            <span class="skill">Keras</span>
+                            <span class="skill">Scikit-learn</span>
+                            <span class="skill">OpenCV</span>
+                            <span class="skill">NLP</span>
+                            <span class="skill">Computer Vision</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Programming</h3>
+                        <div class="skills-list">
+                            <span class="skill">Python</span>
+                            <span class="skill">JavaScript</span>
+                            <span class="skill">Java</span>
+                            <span class="skill">C++</span>
+                            <span class="skill">SQL</span>
+                            <span class="skill">R</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Development</h3>
+                        <div class="skills-list">
+                            <span class="skill">HTML/CSS</span>
+                            <span class="skill">Flask</span>
+                            <span class="skill">REST APIs</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data</h3>
+                        <div class="skills-list">
+                            <span class="skill">Pandas</span>
+                            <span class="skill">NumPy</span>
+                            <span class="skill">Matplotlib</span>
+                            <span class="skill">Seaborn</span>
+                            
+                            <span class="skill">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="certifications" class="certifications-section">
+                <div class="section-header">
+                    <h2>My <span>Certifications</span></h2>
+                    <p class="section-subtitle">Professional qualifications and courses</p>
+                </div>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <h3>TensorFlow Developer Certificate</h3>
+                        <p class="cert-org">Google</p>
+                        <p class="cert-date">2023</p>
+                        <p class="cert-desc">Certified in building and training neural networks using TensorFlow.</p>
+                    </div>
+                    <div class="certification-card">
+                        <h3>AWS Certified Machine Learning - Specialty</h3>
+                        <p class="cert-org">Amazon Web Services</p>
+                        <p class="cert-date">2022</p>
+                        <p class="cert-desc">Demonstrated ability to build, train, and deploy ML models on AWS.</p>
+                    </div>
+                    <div class="certification-card">
+                        <h3>Deep Learning Specialization</h3>
+                        <p class="cert-org">DeepLearning.AI</p>
+                        <p class="cert-date">2021</p>
+                        <p class="cert-desc">Mastered neural networks, CNNs, RNNs, and transformer models.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio" class="portfolio-section">
+                <div class="section-header">
+                    <h2>My <span>Projects</span></h2>
+                    <p class="section-subtitle">Selected work I've completed</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Medical Image Diagnosis AI</h3>
+                        <p class="project-desc">Developed a deep learning model that analyzes X-ray images to detect pneumonia with 94% accuracy.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class='bx bx-link-external'></i></a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Autonomous Drone Navigation</h3>
+                        <p class="project-desc">Created a reinforcement learning system for drones to navigate complex environments autonomously.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>ROS</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class='bx bx-link-external'></i></a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Sentiment Analysis API</h3>
+                        <p class="project-desc">Built a scalable NLP service that analyzes customer sentiment in real-time with 89% accuracy.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>BERT</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class='bx bx-link-external'></i></a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Stock Market Predictor</h3>
+                        <p class="project-desc">Developed an LSTM-based model that predicts stock trends with 82% directional accuracy.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Keras</span>
+                            <span>Time Series</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section">
+                <div class="section-header">
+                    <h2>Get In <span>Touch</span></h2>
+                    <p class="section-subtitle">Have a project in mind or want to collaborate? Reach out!</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <i class='bx bx-envelope'></i>
+                            <div>
+                                <h3>Email</h3>
+                                <a href="mailto:lamaarun2001@gmail.com">lamaarun2001@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class='bx bxl-linkedin'></i>
+                            <div>
+                                <h3>LinkedIn</h3>
+                                <a href="https://www.linkedin.com/in/lama-arun/" target="_blank">linkedin.com/in/arun-lama</a>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class='bx bxs-map'></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Nijgadh, Nepal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <input type="text" placeholder="Subject">
+                        <textarea placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn primary">
+                            Send Message <i class='bx bx-paper-plane'></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
